@@ -1,23 +1,23 @@
 {
     "compilerOptions": {
-        "module": "es2015",
-        "target": "es2015",
+        "target": "es6",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+        "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
         "lib": [
             "es2016",
             "dom"
         ],
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "sourceMap": false,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-    },
-    "exclude": [
-        "node_modules",
-        "public/js",
-        "assets/app/polyfills.ts"
-    ],
-    "angularCompilerOptions": {
-        "skipMetadataEmit": true
+        "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+        "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+
+        "esModuleInterop": true,                   /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    
+
+        // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
+        "noImplicitAny": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+        "strict": true,                           /* Enable all strict type-checking options. */
+
+        "sourceMap": true,                     /* Generates corresponding '.map' file. */
+        "outDir": "dist",                        /* Redirect output structure to the directory. */
+        "rootDir": "src",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     }
 }

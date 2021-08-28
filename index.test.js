@@ -1,4 +1,5 @@
-const ExecutionQueue = require("./index");
+const { ExecutionQueue } = require("./dist/index");
+// import { ExecutionQueue } from "./dist/index";
 
 jest.setTimeout(30000);
 

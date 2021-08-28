@@ -22,6 +22,7 @@ log-*.txt
 /cacheJson
 /logMysqlEvents
 
+/dist
 test.js
 prova.js
 testData.json
